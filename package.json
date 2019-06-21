@@ -1,20 +1,20 @@
 {
-  "name": "smb2",
-  "description": "SMB2 Client",
-  "homepage": "https://github.com/bchelli/node-smb2",
+  "name": "metro-smb2",
+  "description": "SMB2 Client supported by Metro builder",
+  "homepage": "https://github.com/lub4eto-dl/node-smb2",
   "version": "0.2.11",
   "engines": [
     "node"
   ],
   "author": {
-    "name": "Benjamin Chelli",
-    "email": "benjamin@chelli.net",
-    "url": "https://github.com/bchelli"
+    "name": "Lubomir Toshev",
+    "email": "lubomir.toshev@lights.digital",
+    "url": "https://github.com/lub4eto-dl"
   },
   "main": "lib/smb2.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/bchelli/node-smb2"
+    "url": "https://github.com/lub4eto-dl/node-smb2"
   },
   "dependencies": {
     "ntlm": "^0.1.3"

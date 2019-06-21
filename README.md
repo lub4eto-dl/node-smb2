@@ -1,6 +1,6 @@
 # SMB2 Client for Node.js
 
-[![NPM version](https://badge.fury.io/js/smb2.svg)](http://badge.fury.io/js/smb2) [![Dependency Status](https://david-dm.org/bchelli/node-smb2.svg?theme=shields.io)](https://david-dm.org/bchelli/node-smb2) [![Code Climate](https://codeclimate.com/github/bchelli/node-smb2.svg)](https://codeclimate.com/github/bchelli/node-smb2)
+[![NPM version](https://badge.fury.io/js/smb2.svg)](http://badge.fury.io/js/smb2) [![Dependency Status](https://github.com/lub4eto-dl/node-smb2.svg?theme=shields.io)](https://github.com/lub4eto-dl/node-smb2) [![Code Climate](https://github.com/lub4eto-dl/node-smb2.svg)](https://github.com/lub4eto-dl/node-smb2)
 
 ## Introduction
 
@@ -143,6 +143,7 @@ smb2Client.rename('path\\to\\my\\file.txt', 'new\\path\\to\\my\\new-file-name.tx
 This function will close the open connection if opened, it will be called automatically after ```autoCloseTimeout``` ms of no SMB2 call on the server.
 
 ## Contributors
+- [Lubomir Toshev](https://github.com/lub4eto-dl)
 - [Benjamin Chelli](https://github.com/bchelli)
 - [Fabrice Marsaud](https://github.com/marsaud)
 - [Jay McAliley](https://github.com/jaymcaliley)

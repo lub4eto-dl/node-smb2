@@ -4,14 +4,14 @@
 
 ## Introduction
 
-This library is a simple implementation of SMB2 for Node.js. It allows you to access a SMB2 share as if you were using the native fs library.
+This library is a fork of the smb2 node library to support Metro builder. It is a simple implementation of SMB2 for Node.js. It allows you to access a SMB2 share as if you were using the native fs library.
 
 The development is still at an experimental stage and should not be yet considered for production environment.
 
 ## Installation
 
 ```bash
-npm install -S smb2
+npm install -S metro-smb2
 ```
 
 ## API
@@ -32,7 +32,7 @@ the parameter ```options``` accepts this list of attributes:
 Example:
 ```javascript
 // load the library
-var SMB2 = require('smb2');
+var SMB2 = require('metro-smb2');
 
 // create an SMB2 instance
 var smb2Client = new SMB2({
